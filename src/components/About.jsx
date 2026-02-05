@@ -1,18 +1,22 @@
-
-
 function About() {
   return (
-    <section id="about" className="py-20 px-6 bg-gray-50">
+    <section id="about" className="py-20 px-6 bg-gray-100">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
+        <h2 className="text-4xl font-bold mb-8 text-center text-gray-900">About Me</h2>
         <div className="space-y-4 text-lg text-gray-700">
           <p>
-            I am a Business Information Systems student at Saskatchewan Polytechnic in Moose Jaw, Saskatchewan expecting to graduate in April 2026. 
-            I am passionate about technology and problem solving. I enjoy building web applications and learning new technologies.
-             I am planning on relocating to Calgary or Saskatoon to pursue a career in the IT field upon graduation and am excited about the opportunities that lie ahead.
+            I'm a Business Information Systems student at Saskatchewan Polytechnic with hands-on 
+            experience designing and supporting application systems, data workflows, and cloud-based 
+            solutions. I have a strong background in troubleshooting, technical documentation, and 
+            collaborating across technical and non-technical teams.
           </p>
           <p>
-            In my free time I enjoy going to the gym, playing hockey, learning new skills and spending time with friends and family.
+            My interests lie in systems, analytics, and technical roles, with a growing focus on 
+            cloud technologies—particularly AWS. I enjoy building scalable solutions and exploring 
+            how technology can solve real-world problems efficiently.
+          </p>
+          <p>
+            Expected graduation: April 2026
           </p>
         </div>
       </div>

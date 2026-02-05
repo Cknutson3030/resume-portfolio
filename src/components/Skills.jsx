@@ -1,26 +1,29 @@
 function Skills() {
-  const skills = [
-    'React',
-    'JavaScript',
-    'HTML/CSS',
-    'Git/GitHub',
-    'AWS',
-    'Business Analysis',
-    'SQL',
-    'Project Management'
-  ]
+  const skillCategories = {
+    'Cloud & DevOps': ['AWS Lambda', 'S3', 'IAM', 'EventBridge', 'SNS', 'CloudWatch', 'Docker', 'Git'],
+    'Development': ['Python', 'Java', 'C#', 'JavaScript', 'React', 'ASP.NET', 'HTML/CSS'],
+    'Data & Analytics': ['SQL Server', 'MongoDB', 'SSIS (ETL)', 'Power BI'],
+    'Systems & Support': ['Troubleshooting', 'Technical Documentation', 'Process Mapping', 'RESTful APIs']
+  }
 
   return (
-    <section id="skills" className="py-20 px-6 bg-white">
-      <div className="container mx-auto max-w-4xl">
-        <h2 className="text-4xl font-bold mb-12 text-center">Skills</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {skills.map((skill, index) => (
-            <div 
-              key={index} 
-              className="bg-blue-100 text-blue-800 rounded-lg p-4 text-center font-semibold hover:bg-blue-200 transition"
-            >
-              {skill}
+    <section id="skills" className="py-20 px-6 bg-gray-900 text-gray-100">
+      <div className="container mx-auto max-w-6xl">
+        <h2 className="text-4xl font-bold mb-12 text-center">Technical Skills</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          {Object.entries(skillCategories).map(([category, skills]) => (
+            <div key={category} className="bg-gray-800 rounded-lg p-6 border border-gray-700">
+              <h3 className="text-xl font-bold mb-4 text-gray-300">{category}</h3>
+              <div className="flex flex-wrap gap-2">
+                {skills.map((skill, index) => (
+                  <span 
+                    key={index} 
+                    className="bg-gray-100 text-gray-900 px-3 py-1 rounded text-sm font-semibold"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
             </div>
           ))}
         </div>
