@@ -1,9 +1,9 @@
 function Skills() {
   const skillCategories = {
-    'Cloud': ['AWS Lambda', 'S3', 'IAM', 'EventBridge', 'SNS', 'CloudWatch', 'Docker', 'Git'],
-    'Development': ['Python', 'Java', 'C#', 'JavaScript', 'React', 'ASP.NET', 'HTML/CSS'],
+    'Cloud': ['AWS Lambda', 'S3', 'IAM', 'EventBridge', 'SNS', 'CloudWatch', ],
+    'Development': ['Python', 'Java', 'C#', 'JavaScript', 'React', 'ASP.NET', 'HTML/CSS', 'Git'],
     'Data & Analytics': ['SQL Server', 'MongoDB', 'SSIS (ETL)', 'Power BI'],
-    'Systems & Support': ['Troubleshooting', 'Technical Documentation', 'Process Mapping', 'RESTful APIs']
+    'Systems & Support': ['Troubleshooting', 'Technical Documentation', 'Process Mapping', 'Docker', 'RESTful APIs']
   }
 
   return (
