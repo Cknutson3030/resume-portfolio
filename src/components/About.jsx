@@ -1,23 +1,25 @@
 function About() {
   return (
-    <section id="about" className="py-20 px-6 bg-gray-100">
-      <div className="container mx-auto max-w-4xl">
-        <h2 className="text-4xl font-bold mb-8 text-center text-gray-900">About Me</h2>
-        <div className="space-y-4 text-lg text-gray-700">
-          <p>
-            I'm a Business Information Systems student at Saskatchewan Polytechnic with hands-on 
-            experience designing and supporting application systems, data workflows, and cloud-based 
-            solutions. I have a strong background in troubleshooting, technical documentation, and 
-            collaborating across technical and non-technical teams.
-          </p>
-          <p>
-            My interests lie in systems, analytics, and technical roles, with a growing focus on 
-            cloud technologies—particularly AWS. I enjoy building scalable solutions and exploring 
-            how technology can solve real-world problems efficiently.
-          </p>
-          <p>
-            Expected graduation: April 2026
-          </p>
+    <section id="about" className="bg-slate-100 py-20 text-slate-900">
+      <div className="mx-auto flex max-w-6xl flex-col gap-10 px-6 lg:flex-row lg:items-start">
+        <div className="lg:w-1/3">
+        
+          <h2 className="mt-4 text-3xl sm:text-4xl font-semibold">About Me</h2>
+        </div>
+        <div className="lg:w-2/3">
+          <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+            <div className="space-y-4 text-base sm:text-lg text-slate-700">
+              <p>
+               I’m a Business Information Systems student at Saskatchewan Polytechnic in Moose Jaw, SK, preparing to begin my career in IT after graduation, with plans to relocate. Through coursework and projects, I’ve built hands on experience with systems, applications, data workflows, and cloud fundamentals.
+              </p>
+              <p>
+                My current focus is building a strong foundation in systems and technical support, with growing interests in DevOps and Cloud practices as I continue to develop.
+              </p>
+              <p className="font-semibold text-slate-900">
+                Expected graduation: April 28, 2026
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -1,39 +1,40 @@
 function Contact() {
   return (
-    <section id="contact" className="py-20 px-6 bg-gray-900 text-gray-100 border-t border-gray-800">
-      <div className="container mx-auto max-w-4xl text-center">
-        <h2 className="text-4xl font-bold mb-8">Let's Connect</h2>
-        <p className="text-xl mb-12 text-gray-300">
-          I'm always open to new opportunities and collaborations!
+    <section id="contact" className="bg-slate-950 py-20 text-slate-100">
+      <div className="mx-auto max-w-5xl px-6 text-center">
+        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">Contact</p>
+        <h2 className="mt-3 text-3xl sm:text-4xl font-semibold">Seeking a May 2026 Role</h2>
+        <p className="mx-auto mt-4 max-w-2xl text-base sm:text-lg text-slate-400">
+          I'm open to full time positions in Systems, Cloud, or Data focused teams.
         </p>
         
-        <div className="flex flex-col md:flex-row justify-center gap-6 mb-12">
+        <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a 
             href="mailto:chaseknutson30@gmail.com" 
-            className="bg-gray-100 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-200 transition"
+            className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-200"
           >
-            📧 Email Me
+            Email Me
           </a>
           <a 
             href="https://www.linkedin.com/in/chase-knutson" 
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gray-100 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-200 transition"
+            className="inline-flex items-center justify-center rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
           >
-            💼 LinkedIn
+            LinkedIn
           </a>
           <a 
             href="https://github.com/Cknutson3030" 
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gray-100 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-200 transition"
+            className="inline-flex items-center justify-center rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
           >
-            💻 GitHub
+            GitHub
           </a>
         </div>
 
-        <p className="text-sm text-gray-500">
-          © 2026 Chase Knutson. Built with React & Tailwind CSS.
+        <p className="mt-10 text-xs uppercase tracking-[0.2em] text-slate-500">
+          Copyright 2026 Chase Knutson. Built with React & Tailwind CSS.
         </p>
       </div>
     </section>
