@@ -3,7 +3,7 @@ function Contact() {
     <section id="contact" className="bg-slate-950 py-20 text-slate-100">
       <div className="mx-auto max-w-5xl px-6 text-center">
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">Contact</p>
-        <h2 className="mt-3 text-3xl sm:text-4xl font-semibold">Seeking a May 2026 Role</h2>
+        <h2 className="mt-3 text-3xl sm:text-4xl font-semibold">Seeking a Full Time Role beginning May 2026</h2>
         <p className="mx-auto mt-4 max-w-2xl text-base sm:text-lg text-slate-400">
           I'm open to full time positions in Systems, Cloud, or Data focused teams.
         </p>
