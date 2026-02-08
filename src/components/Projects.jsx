@@ -4,7 +4,7 @@ function Projects() {
       title: "Serverless Financial Briefing Pipeline",
       description: "Serverless pipeline that aggregates financial news and generates AI briefings using Meta Llama 3.2 via Amazon Bedrock, delivered via email with automated archival to S3.",
       tech: "AWS Lambda, EventBridge, S3, SNS, CloudWatch, Amazon Bedrock, Python",
-      github: "https://github.com/Cknutson3030",
+      github: "https://github.com/Cknutson3030/daily-financial-ai-summary",
       badge: "Personal Project",
       badgeTone: "personal"
     },
