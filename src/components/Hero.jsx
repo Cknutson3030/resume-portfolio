@@ -7,8 +7,8 @@ function Hero() {
       </div>
       <div className="relative mx-auto flex min-h-screen max-w-6xl items-center px-6 pb-20 pt-28">
         <div className="w-full text-center">
-          <p className="mb-4 inline-flex items-center rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-slate-300">
-           SYSTEMS · DATA · CLOUD FUNDAMENTALS
+          <p className="mb-4 hidden sm:inline-flex items-center rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-slate-300">
+            SYSTEMS Â· DATA Â· CLOUD FUNDAMENTALS
           </p>
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-semibold tracking-tight">
             Chase Knutson
